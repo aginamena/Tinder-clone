@@ -1,0 +1,23 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fafafa;
+  #tinderlogo {
+    height: 100px;
+    width: 100px;
+    // we want the image to not look weird after reducing the size
+    object-fit: contain;
+  }
+  & > button {
+    border-radius: 50px;
+
+    & > i {
+      font-size: 40px;
+    }
+  }
+
+  & > .fa-comment-alt {
+    font-size: 40px;
+  }
+}
