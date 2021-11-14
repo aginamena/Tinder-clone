@@ -1,0 +1,32 @@
+#swipeButtons {
+  //   position: fixed;
+  bottom: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  button {
+    background-color: white;
+    box-shadow: 0 10px 53px 0 rgba(0, 0, 0, 0.3) !important;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    i {
+      font-size: 30px;
+    }
+    .fa-reply {
+      color: #f5b748;
+    }
+    .fa-times {
+      color: #ec5e6f;
+    }
+    .fa-star {
+      color: #62b4f9;
+    }
+    .fa-heart {
+      color: #76e2b3;
+    }
+    .fa-bolt {
+      color: #915dd1;
+    }
+  }
+}

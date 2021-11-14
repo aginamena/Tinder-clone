@@ -5,7 +5,7 @@ import "../styles/Header.scss"
 // import { IconButton } from '@mui/material';
 function Header() {
     return (
-        <div id="header" className="container">
+        <div id="header">
             <button type="button" class="btn btn-light">
                 <i class="fas fa-user"></i>
             </button>
